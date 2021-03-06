@@ -1,0 +1,5 @@
+True 
+D) $_PUT 
+B) isset 
+B) in_array 
+C) map_array 
