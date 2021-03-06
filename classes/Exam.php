@@ -18,7 +18,6 @@ class Exam implements Exam_interface {
         $this->url = Helper::get_current_Page_URL();
         $this->page = (isset($_SESSION["page"])) ? $_SESSION["page"]:1 ;    // ($this->get_current_page_index() > 0) ? (int) $this->get_current_page_index() : 1;  //integer equal the no of page
         $_SESSION["page"]=$this->page;
-        $this->score=0;
         $this->questions = $this->get_questions();   
         $this->answers=$this->get_answers();
         $this->move_previous();
