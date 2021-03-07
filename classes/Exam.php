@@ -114,6 +114,7 @@ public function checkScore()     //public to use it in the end exam page
     return $score;
     
 }
+    //recieve  the index of the question 
 public function checkQuestion($i)
 {
    
